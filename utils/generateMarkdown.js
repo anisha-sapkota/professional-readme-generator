@@ -70,7 +70,9 @@ const getLicense = (type, name) => {
 };
 
 // returns MIT license populated with name
-const MIT = (name) => `MIT License
+const MIT = (
+  name
+) => `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) ${new Date().getFullYear()}, ${name}
 
@@ -93,7 +95,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.`;
 
 // return Apache 2.0 license populated with name
-const APACHE2 = (name) => `Apache License
+const APACHE2 = (
+  name
+) => `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Copyright ${new Date().getFullYear()} ${name}
 
@@ -110,7 +114,9 @@ See the License for the specific language governing permissions and
 limitations under the License.`;
 
 // returns GPL 3 license populated with name
-const GPL3 = (name) => `GPL 3.0
+const GPL3 = (
+  name
+) => `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Copyright (C) ${new Date().getFullYear()}  ${name}
 
@@ -154,7 +160,9 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.`;
 
 // returns BSD 3 license populated with name
-const BSD3 = (name) => `BSD 3-Clause License
+const BSD3 = (
+  name
+) => `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 Copyright (c) ${new Date().getFullYear()}, ${name}
 
