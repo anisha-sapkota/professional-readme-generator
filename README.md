@@ -10,6 +10,8 @@ Professional readme generator created using JavaScript.
 4. Answer series of prompted questions.
 5. A professional `README.md` will be generated in the output folder.
 
+Video demonstration can be found at this [link](https://drive.google.com/file/d/1jh88aWP4ySQkeZPd2w8kvlRdOmW9TNBe/view).
+
 ## Packages used
 
 - [Inquirer](https://www.npmjs.com/package/inquirer)
